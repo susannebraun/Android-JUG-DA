@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16px</dimen>
+    <dimen name="activity_vertical_margin">16px</dimen>
+    <dimen name="body_padding_medium">8px</dimen>
+    <dimen name="tab_host_default_height">48px</dimen>
+    
+    <dimen name="text_size_medium">20px</dimen>
+    <dimen name="text_size_large">24px</dimen>
+</resources>

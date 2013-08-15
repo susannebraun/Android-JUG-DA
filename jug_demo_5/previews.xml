@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<previews>
+
+    <preview
+        name="mdpi Phone"
+        activity="de.accso.jug_demo_1.DemoActivity"
+        config="layout-sw320dp-w320dp-h480dp-normal-notlong-port-notnight-mdpi-finger-keyshidden-qwerty-navhidden-nonav-480x320-v15"
+        device="3.2in HVGA slider (ADP1)"
+        devicestate="Portrait"
+        target="Android 4.0.3"
+        theme="@style/AppTheme" >
+    </preview>
+    <preview
+        name="xhdpi Phone"
+        activity="de.accso.jug_demo_1.DemoActivity"
+        config="layout-sw384dp-w384dp-h640dp-normal-notlong-port-notnight-xhdpi-finger-keyssoft-nokeys-navhidden-nonav-1280x768-v15"
+        device="Nexus 4"
+        devicestate="Portrait"
+        target="Android 4.0.3"
+        theme="@style/AppTheme" >
+    </preview>
+    <preview
+        name="xhdpi Tablet"
+        activity="de.accso.jug_demo_1.DemoActivity"
+        config="layout-sw800dp-w1280dp-h800dp-xlarge-notlong-land-notnight-xhdpi-finger-keyssoft-nokeys-navhidden-nonav-2560x1600-v15"
+        device="Nexus 10"
+        devicestate="Landscape"
+        target="Android 4.0.3"
+        theme="@style/AppTheme" >
+    </preview>
+    <preview
+        name="hdpi Phone"
+        activity="de.accso.jug_demo_1.DemoActivity"
+        config="layout-sw320dp-w320dp-h533dp-normal-long-port-notnight-hdpi-finger-keyssoft-nokeys-navhidden-nonav-800x480-v15"
+        device="Nexus S"
+        devicestate="Portrait"
+        target="Android 4.0.3"
+        theme="@style/AppTheme" >
+    </preview>
+    <preview
+        name="mdpi Tablet"
+        activity="de.accso.jug_demo_1.DemoActivity"
+        config="layout-sw800dp-w1280dp-h800dp-xlarge-long-land-notnight-mdpi-finger-keyssoft-nokeys-navhidden-nonav-1280x800-v15"
+        device="10.1in WXGA (Tablet)"
+        devicestate="Landscape"
+        target="Android 4.0.3"
+        theme="@style/AppTheme" >
+    </preview>
+
+</previews>

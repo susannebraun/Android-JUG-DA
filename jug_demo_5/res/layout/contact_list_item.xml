@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contact_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView 
+        android:id="@+id/contact_portrait_thump"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_social_person"
+        android:padding="8dp"
+        android:cropToPadding="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        ></ImageView>
+    <TextView 
+        android:id="@+id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:layout_toRightOf="@id/contact_portrait_thump"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/text_size_medium"
+        />
+    
+</RelativeLayout>
